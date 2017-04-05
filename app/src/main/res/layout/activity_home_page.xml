@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/barcelona"
+    tools:context="com.example.ironm.e_map.HomePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/txtEvents"
+        android:text="EVENTS"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#dcdc00"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@id/txtEvents"
+        android:layout_marginTop="5dp"
+        android:id="@+id/scrollview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Sample Event Name"
+                android:textColor="#000"
+                android:layout_margin="2dp"
+                android:background="@xml/textview_design"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="#c7c7c7"
+        android:text="ADD NEW EVENT"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
